@@ -1,14 +1,16 @@
 tcase=int(input())
+num1=0
 for i in range(tcase):
 	no=int(input())
 	numbers=input().split()
 	for j in range(no):
 		numbers[j]=int(numbers[j])
 	num=int(input())
-	for j in range(1,no+1):
-		num=numbers[num]
+	for j in range(no):
+		if(j==num):
+			num1=numbers[num-1]
 	numbers.sort()
-	for j in range(1,no+1):
-		if numbers[j]==num:
-			print(j)
-
+	print(num1)
+	for j in range(no):
+		if(numbers[j]==num1):
+			print(j+1)
