@@ -1,3 +1,3 @@
 <h1>Hello Coders</h1>
-<br>
-Here are some of the solved questions from CodeChef. Happy Coding!!
+<br><br>
+Here are the answers of the Practice questions from CodeChef. Happy Coding!!
