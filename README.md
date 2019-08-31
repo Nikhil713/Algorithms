@@ -1,3 +1,9 @@
 <h1>Hello Coders</h1>
 <br><br>
-A beginner's guide to competitive coding
+This is a beginner's guide to competitive coding.
+
+Links to the coding platforms mentioned above
+
+CodeChef: https://www.codechef.com/
+HackerEarth: https://www.hackerearth.com/challenges/
+CodeJam: https://codingcompetitions.withgoogle.com/codejam
