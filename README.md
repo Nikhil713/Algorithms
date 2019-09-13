@@ -1,4 +1,4 @@
-<h1>Hello Coders</h1>
+<h1>Competitive Coding</h1>
 <br><br>
 This is a beginner's guide to competitive coding.
 <br>
