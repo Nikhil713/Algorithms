@@ -1,0 +1,19 @@
+# Question: https://codingcompetitions.withgoogle.com/codejam/round/000000000005170
+tcase=int(input())
+for i in range(tcase):
+	arr=list(map(int,str(input())))
+	print(arr)
+	b=0
+	arr.reverse()
+	for j in range(len(arr)):			
+		if arr[j]==4:
+			arr[j]-=1
+			
+		b+=10**j
+		arr.reverse()
+	
+	"".join(str(arr))
+		print(int(arr))
+		
+					
+	
