@@ -1,6 +1,6 @@
 <h1>Competitive Coding</h1>
 <br><br>
-A beginner's guide to competitive coding.
+Solutions to some questions in the online coding platforms
 <br>
 Links to the coding platforms mentioned above:
 
