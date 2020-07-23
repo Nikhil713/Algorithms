@@ -32,3 +32,6 @@ class Solution:
                 i+=1
         return address
 
+class Solution:
+    def defangIPaddr(self, address: str) -> str:
+        return address.replace('.','[.]')
