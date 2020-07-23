@@ -43,3 +43,17 @@ class Solution:
                     count+=1
             arr.append(count)
         return arr
+
+
+class Solution:
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+        arr = []
+        nums1 = []
+        for i in range(len(nums)):
+            nums1.append(nums[i])
+        nums1.sort()
+        for i in range(len(nums)):
+            arr.append(nums1.index(nums[i]))
+        return arr
+
+
