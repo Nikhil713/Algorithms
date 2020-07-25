@@ -43,7 +43,9 @@
 #         self.next = next
 
 class Solution:
+
     def getDecimalValue(self, head: ListNode) -> int:
+        
         arr = []
         while (head != None):
             arr.append(head.val)
