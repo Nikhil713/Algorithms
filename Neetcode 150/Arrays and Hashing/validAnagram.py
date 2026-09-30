@@ -1,5 +1,7 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
         letterOccurance = {}
         for char in s:
             letterOccurance[char] = letterOccurance.get(char,0) + 1
